@@ -54,6 +54,8 @@ def find_relevant_codes_df(user_input, df, max_results=4, threshold=0.5):
     
     return relevant_codes
 
+st.title("Export Control")
+
 # Streamlit UI for user input
 user_input = st.text_input("Enter the information:")
 button = st.button("Search")
